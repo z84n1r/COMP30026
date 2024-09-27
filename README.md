@@ -106,9 +106,9 @@ faster to search because it must satisfy some constraints, two of which are:
 ?((()    ?())    (()    ?())) (1)
 2. A red node does not have a red child:
 ?(()    (?(())    ?(()))) (2)
-Task
-Use resolution to prove tha代 写COMP30026、C/C++
-代做程序编程语言t these two conditions entail that a tree consisting
+代 写COMP30026、C++
+代做程序编程语言Task
+Use resolution to prove that these two conditions entail that a tree consisting
 of a non-black root with a red left child is not a red-black tree.
 Q5 Informal Proof: Palindromes
 Assume the following definitions:
@@ -206,8 +206,7 @@ u = -P -Q
 6
 Empty lines, and lines that start with   #  , are ignored. Input variables are
 in upper case. Negation binds tighter than conjunction, which in turn binds
-tighter than disjunction. So the equation for says that = (?    )    (   
-?)    (    ?    ?). Note the use of a helper function , allowing and
+tighter than disjunction.  Note the use of a helper function , allowing and
 to share some circuitry. Also note that we do not allow any feedback loops
 in the circuit. In the example above, depends on , so is not allowed to
 depend, directly or indirectly, on (and indeed it does not).
